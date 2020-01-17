@@ -6,7 +6,9 @@ public class Question {
     private String question;
     private int answerCode;
 
-    public Question() {
+    public Question(String question, int answerCode) {
+        this.question = question;
+        this.answerCode = answerCode;
         this.id = nextId++;
     }
 
